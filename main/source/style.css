@@ -1,0 +1,277 @@
+
+:root {
+  --font-family: "Roboto", sans-serf;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.1s;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  height: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap:3.2rem
+    }
+
+nav a:hover{
+      color: var(--secondary-color)
+}
+
+nav ul li{
+    font-weight: var(--bold-font)
+}
+nav a{
+    transition:var(--transition)
+    }
+
+button.burger-menu
+    {display:none
+    }
+
+.about-me-division{     font-size: 300%;
+                        font-family:sans-serif;
+                        width: 27ch;
+                        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        border-right: 3px solid;
+                        font-family: monospace;
+                        font-size: 3.5em;
+                        }
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.hero-image{
+         height: 34.5rem;
+         width: 34.5rem;
+         padding: 4px 8px
+         border-radius:50%
+
+        }
+
+.hero{
+        display:flex;
+        align-items: center;
+        gap:4.5rem;
+        padding: 20px 20px;
+        }
+
+.about-me-division{
+                padding: 4px 10px;
+                border-radius:6px;
+                margin-left:9rem
+}
+.about-me-division:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    }
+
+.para-text{ font-size: 100%;
+            font-family:sans-serif;}
+
+.workexh{   font-size: 50px;
+            font-family:sans-serif;
+            box-shadow: 0 12px 12px 0 rgba(0,0,0,0.1);
+            }
+
+.optum1{            font-size: 31px;
+                    font-family:sans-serif;}
+
+.optum2{            font-size: 24px;
+                    font-family:sans-serif;}
+
+.optum3{            font-size: 21.5px;
+                    font-family:sans-serif;}
+
+.optum{
+        display:flex;
+        align-items: center;
+        gap:75rem;
+        margin:auto;
+        padding: 6px 6px;
+        margin-bottom:20px
+}
+
+
+
+.wipro1{            font-size: 31px;
+                    font-family:sans-serif;}
+
+.wipro2{            font-size: 24px;
+                    font-family:sans-serif;}
+
+.wipro3{            font-size: 21.5px;
+                    font-family:sans-serif;}
+
+.wipro{ display:flex;
+        align-items: center;
+        gap:81.5rem;
+        padding: 6px 6px;
+        margin:auto;
+        margin-bottom:20px
+}
+
+
+.abi1{            font-size: 31px;
+                    font-family:sans-serif;}
+
+.abi2{            font-size: 24px;
+                    font-family:sans-serif;}
+
+.abi3{            font-size: 21.5px;
+                    font-family:sans-serif;}
+
+.abi{   displaY:flex;
+        align-items: center;
+        gap:81rem;
+        padding: 6px 6px;
+        margin:auto;
+        margin-bottom:20px
+}
+
+.optumlogo{         height: 12.5rem;
+                    width: 16.5rem;}
+
+.wiprologo{         height: 6.5rem;
+                    width: 10.5rem;}
+
+.abilogo{           height: 10.5rem;
+                    width: 15.5rem;}
+
+
+.social {
+  display: flex;
+  position: fixed;
+  right: 6%;
+  bottom: 80%;
+}
+
+.icon{
+        width: 5rem;
+        height: 5rem;
+    }
+
+.project-title{            font-size: 50px;
+                           font-family:sans-serif;
+                           box-shadow: 0 12px 12px 0 rgba(0,0,0,0.1)
+}
+
+.projectdescription{
+        display:flex;
+        align-items: center;
+        margin-top:4rem;
+}
+
+.picture{
+            width: 16rem;
+            height: 16rem;
+            margin-left: 9.5rem
+}
+
+.picturedrowsiness{             width: 15rem;
+                                height: 15rem;
+                                margin-left: 9.5rem
+}
+.projectcard{
+
+      border-radius: 11px;
+      box-shadow: 0 3px 10px var(--primary-shadow);
+      padding: 20px;
+      margin: 10px;
+      width :33%
+
+}
+
+.projects{margin-bottom:120px}
+
+
+.projectcard:hover{     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+                        background: #F8F0E
+                    }
+.project-link{  background-color: grey;
+                color: white;
+                padding: 0.5em 0.75em;
+                text-decoration: none;
+                text-transform: uppercase;}
+
+.para{  margin-bottom: var(--bottom-margin);}
+
+.project-link{  margin-left: 40%}
+
+
+
+.courses{               display:flex;
+                        align-items: center;
+                        gap:16rem;
+                        font-size: 27px;
+                        margin-top:10rem;
+                        height:300px
+
+                        }
+ .courses:hover{          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+                         }
+
+
+.courselist{            display:flex;
+                        gap:12rem;
+                        font-size: 27px;
+                        font-family:sans-serif;
+                        }
+
+
+.certifications    {               display:flex;
+                                   align-items: center;
+                                   gap:16rem;
+                                   margin-top:6rem;
+                                   font-size: 27px;
+                                   height:300px
+
+                                          }
+
+  .certifications:hover{          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+                          }
+
+.certiflist{            display:flex;
+                                   gap:12rem;
+                                   font-size: 30px;
+                                   font-family:sans-serif;
+                                   }
+
+
+.footer{                            align-items: center;
+                                    font-size: 31px;
+                                    font-family:sans-serif;
+                                    margin-left:40%;
+                                    margin-top:4rem
+}
