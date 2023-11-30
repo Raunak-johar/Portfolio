@@ -1,3 +1,4 @@
 # Portfolio
 A purely HTML coded portfolio website
-https://raunakjohar.netlify.app
+
+Check it out: https://raunakjohar.netlify.app
